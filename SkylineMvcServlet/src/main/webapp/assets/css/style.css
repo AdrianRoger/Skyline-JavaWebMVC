@@ -190,7 +190,7 @@ p>strong {
 
 /* Inicio da parallax */
 .parallax {
-  background-image: url("imagens/praia.jpg");
+  background-image: url("../img/praia.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;

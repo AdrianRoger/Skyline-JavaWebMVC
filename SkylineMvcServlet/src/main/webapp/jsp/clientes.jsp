@@ -198,7 +198,7 @@
 												<div class="modal-footer">
 													<button type="button" class="btn btn-sm btn-secondary"
 														data-bs-dismiss="modal">Cancelar</button>
-													<a href="clientes-delete?id=${cli.cpf}"
+													<a href="clientes-delete?cpf=${cli.cpf}"
 														class="btn btn-sm btn-danger">Excluir</a>
 												</div>
 											</div>
