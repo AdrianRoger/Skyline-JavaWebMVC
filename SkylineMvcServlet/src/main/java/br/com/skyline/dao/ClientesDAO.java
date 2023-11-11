@@ -215,7 +215,6 @@ public class ClientesDAO {
 	
 	public void apagar(String cpf) {
 		String sql = "DELETE FROM CLIENTES WHERE cpf = ?";
-//		System.out.println("init");
 		Connection conn = null;
 		PreparedStatement pstm = null;
 		
@@ -226,13 +225,9 @@ public class ClientesDAO {
 			
 			pstm.setString(1, cpf);
 			pstm.execute();
-			//System.out.println(pstm.toString());
-//			System.out.println("try done");
 		}catch(Exception e) {
 			e.printStackTrace();
-//			System.out.println("Erro ao apagar");
 		}finally {
-//			System.out.println("finally");
 			try {
 				if(pstm != null) {
 					pstm.close();
